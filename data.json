@@ -1,0 +1,111 @@
+{
+    "restaurant": [
+      {
+        "name": "Clinton St Baking Company",
+        "address": "4 Clinton St, New York, NY 10002",
+        "rating": "4.4/5",
+        "desc": "American restaurant known for its weekend brunch and pancakes."
+      },
+      {
+        "name": "Russ & Daughters Cafe",
+        "address": "127 Orchard St, New York, NY 10002",
+        "rating": "4.6/5",
+        "desc": "From a legendary appetizing shop comes this retro, full-service outpost serving Jewish comfort food."
+      },
+      {
+        "name": "Dudley’s",
+        "address": "85 Orchard St, New York, NY 10002",
+        "rating": "4.4/5",
+        "desc": "Chic all-day cafe & bar serving locally sourced American bites with an Australian twist."
+      },
+      {
+        "name": "99 Favor Taste",
+        "address": "285 Grand St, New York, NY 10002",
+        "rating": "4.3/5",
+        "desc": "Sizable all-you-can-eat Asian buffet with contemporary decor, plus beer, wine & sake."
+      },
+      {
+        "name": "Wayan",
+        "address": "20 Spring St, New York, NY 10012",
+        "rating": "4.4/5",
+        "desc": "French-accented Indonesian menu created by celebrated chef Jean-Georges' son Cédric Vongerichten is served in a sleek setting."
+      },
+      {
+        "name": "Pig and Khao",
+        "address": "68 Clinton St, New York, NY 10002",
+        "rating": "4.3/5",
+        "desc": "Filipino-Thai-accented SE Asian fare & specialty drinks served in modern, stylish digs with a patio."
+      }
+    ],
+    "shop": [
+      {
+        "name": "Niconeco Zakayya",
+        "address": "263 E 10th St, New York, NY 10009",
+        "rating": "4.8/5",
+        "desc": "Stationery store for Japanese pens, notebooks, postcards, stickers and other cute paper goods."
+      },
+      {
+        "name": "Sweet Pickle Books",
+        "address": "47 Orchard St, New York, NY 10002",
+        "rating": "4.6/5",
+        "desc": "Store selling a wide range of used books as well as pickles."
+      },
+      {
+        "name": "Top Hat",
+        "address": "",
+        "rating": "",
+        "desc": "Snug & stylish gift shop offering an eclectic mix of modernist home goods, stationary & crafts."
+      },
+      {
+        "name": "Iconic Magazines",
+        "address": "245 Broome St, New York, NY 10002",
+        "rating": "4.8/5",
+        "desc": ""
+      },
+      {
+        "name": "L Train Vintage",
+        "address": "204 1st Ave., New York, NY 10009",
+        "rating": "4.3/5",
+        "desc": "Secondhand store packed with clothing, shoes & accessories from past decades at budget prices."
+      },
+      {
+        "name": "Ludlow Flea",
+        "address": "159 Ludlow St, New York, NY 10002",
+        "rating": "3.8/5",
+        "desc": "Outdoor market specializing in vintage small and local businesses."
+      }
+    ],
+    "cafe": [
+      {
+        "name": "Butterdose",
+        "address": "236 E 13th St, New York, NY 10003",
+        "rating": "4.7/5",
+        "desc": "Bakery and cafe supplying cream puffs in a variety of flavors, as well as coffee, tea and other drinks."
+      },
+      {
+        "name": "Not As Bitter",
+        "address": "241 E 10th St, New York, NY 10003",
+        "rating": "4.2/5",
+        "desc": "Coffee shop specializing in specialty cocktail coffee and fresh fruit lattes"
+      },
+      {
+        "name": "Dialogue Coffee and Flowers",
+        "address": "188 Allen St, New York, NY 10002",
+        "rating": "4.9/5",
+        "desc": "Love, coffee, flowers"
+      },
+      {
+        "name": "Cha An Tea House",
+        "address": "230 E 9th St 2nd FL, New York, NY 10003",
+        "rating": "4.3/5",
+        "desc": "Extensive tea list, unique sweets, and snacks are served a la carte or in formal tea ceremonies."
+      },
+      {
+        "name": "BBF NYC",
+        "address": "177 Ludlow St, New York, NY 10002",
+        "rating": "4.7/5",
+        "desc": "Trendy eatery and bar dishing up sushi and other Japanese fare, plus sake and cocktails."
+      }
+    ]
+  }
+  
