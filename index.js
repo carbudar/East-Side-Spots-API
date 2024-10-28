@@ -52,7 +52,8 @@ app.get('/rating', (req, res) => {
             jsonData[category].forEach((place) => {
                 const placeRating = parseFloat(place.rating);
                 if (placeRating >= reqRating) { //if place from the JSON data has a rating bigger or equals to what was requested,
-                    ratedPlace.push(place.name);//push into the array
+                    ratedPlace.push(place.name)
+                    ratedPlace.push(place.rating);//push into the array
                 }
             });
         }
