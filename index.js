@@ -61,7 +61,7 @@ app.get('/rating', (req, res) => {
     res.send(ratedPlace);//display to client side
 });
 
-//returns list of name of places tha fits within the category
+//returns list of name of places that fits within the category
 app.get('/spot', (req, res) => {
     const reqCategory = req.query.category; 
     const categoryList = []; //make empty array
