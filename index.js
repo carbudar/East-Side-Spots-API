@@ -2,6 +2,10 @@ import express from 'express';
 import fs from 'fs/promises';
 
 const app = express();
+app.use(cors({
+    origin: '*'
+}));
+
 const port = process.env.PORT || 3001;
 
 let jsonData;
@@ -20,7 +24,9 @@ readJson().then(() => {
 
 //returns information detail about the chosen place
 app.get('/name/:name', (req, res) => {
-    const placeName = req.params.name.toLowerCase(); //to make it not case sensitive
+    console.log("REQUEST")
+    const placeName = req.params.name.substring(1).toLowerCase(); //to make it not case sensitive
+    console.log(placeName)
     const categories = ['restaurant', 'shop', 'cafe']; //create array for the catrgory parent in the json data
 
     categories.forEach((category) => { //loop through category
@@ -75,3 +81,7 @@ app.get('/spot', (req, res) => {
         res.send(categoryList); //display it in client side
     } 
     });
+
+
+    //url is better for 1 thing in return
+    //query is for filtering and multiple responses
